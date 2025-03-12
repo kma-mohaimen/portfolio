@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>About Me</title>
-        <!-- Favicon-->
+        <!-- Favicon final-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -38,7 +38,8 @@
         <header class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/portfolio/self.JPG" alt="..." />
+                <img class="masthead-avatar mb-5 rounded-circle" src="assets/img/portfolio/self.JPG" alt="..." />
+
                 <!-- Masthead Heading-->
                 <h1 class="masthead-heading text-uppercase mb-0">Hello, I'm Abdul Mohaimen</h1>
                 <!-- Icon Divider-->
@@ -112,6 +113,57 @@
             </div>
         </section>
 <!-- Portfolio Section Finished-->
+
+
+<!-- WORK EXPERIENCE START-->
+<section class="page-section portfolio" id="portfolio">
+<div class="container">
+    <!-- Portfolio Section Heading-->
+    <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Work Experience</h2>
+    <!-- Icon Divider-->
+    <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+        <div class="divider-custom-line"></div>
+    </div>
+    <!-- Portfolio Grid Items-->
+    <div class="row justify-content-center">
+        <!-- Portfolio Item 1-->
+        <div class="col-md-6 col-lg-4 mb-7">
+<div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+<div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+<div class="portfolio-item-caption-content text-center text-white">
+    <i class="fas fa-plus fa-3x"></i>
+</div>
+</div>
+<!-- Box containing both logos -->
+<div class="logo-box" style="display: flex; justify-content: center; align-items: center; gap: 10px; padding: 25px; border: 2px solid #ccc; border-radius: 10px;">
+<img class="img-fluid" src="assets/img/portfolio/bdgovlogo.png" alt="Logo 1" 
+     style="max-width: 150px; height: auto; object-fit: contain;" />
+<img class="img-fluid" src="assets/img/portfolio/coxdalogo.jpg" alt="Logo 2" 
+     style="max-width: 150px; height: auto; object-fit: contain;" />
+</div>
+</div>
+</div>
+
+        <!-- Portfolio Item 2-->
+        <div class="col-md-6 col-lg-4 mb-5">
+            <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal10">
+                <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                    <div class="portfolio-item-caption-content text-center text-white">
+                        <i class="fas fa-plus fa-3x"></i>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/portfolio/ra.jpeg" alt="..." style="border: 2px solid #B2B2B2;" />
+            </div>
+        </div>
+               
+        
+    </div>
+</div>
+</section>
+<!-- PWORK EXPERIENCE Finish-->
+
         <!-- Activities Section Start-->
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
@@ -197,89 +249,20 @@
                 </div>
                 <!-- About Section Content-->
                 <div class="row">
-                    <div class="col-lg-4 ms-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 me-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div class="col-lg-4 ms-auto"><p class="lead">If you’re wondering what this is all about—well, it’s just the beginning. This site is my way of sharing my journey in GIS, from research projects, aesthetic maps, to analysis and everything in between.</p></div>
+                    <div class="col-lg-4 me-auto"><p class="lead">I’m just getting started with this site, and while life keeps me busy, I’ll update this space whenever I can. Stay tuned for insights, projects, and experiments as I navigate the world of geospatial science!!</p></div>
                 </div>
                 <!-- About Section Button-->
                 <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <a class="btn btn-xl btn-outline-light" href="https://drive.google.com/file/d/1mJ1XR-lqt9_ER6EjzadUBEiuDRXZuykF/view?usp=drive_link">
                         <i class="fas fa-download me-2"></i>
-                        Free Download!
+                        CV Download!
                     </a>
                 </div>
             </div>
         </section>
         <!-- Contact Section-->
-        <section class="page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Name input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
-                                <label for="name">Full name</label>
-                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
-                            </div>
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email address</label>
-                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
-                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
-                            </div>
-                            <!-- Phone number input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="phone" type="tel" placeholder="(123) 456-7890" data-sb-validations="required" />
-                                <label for="phone">Phone number</label>
-                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
-                            </div>
-                            <!-- Message input-->
-                            <div class="form-floating mb-3">
-                                <textarea class="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
-                                <label for="message">Message</label>
-                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
-                            </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
-                            </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-primary btn-xl disabled" id="submitButton" type="submit">Send</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <!-- Footer-->
         <footer class="footer text-center">
             <div class="container">
@@ -288,9 +271,9 @@
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            Zia Mansion, Saheed Sharani Road
                             <br />
-                            Clark, MO 65243
+                            Cox's Bazar, 4700
                         </p>
                     </div>
                     <!-- Footer Social Icons-->
@@ -303,10 +286,11 @@
                     </div>
                     <!-- Footer About Text-->
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <h4 class="text-uppercase mb-4">About This Website</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
+                            © [2025] [kma.-mohaimen.github.io]. All Rights Reserved.
+                            Designed and maintained by  
+                            <a href="http://startbootstrap.com">Abdul Mohaimen.</a>
                             .
                         </p>
                     </div>
@@ -315,30 +299,36 @@
         </footer>
         <!-- Copyright Section-->
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2023</small></div>
+            <div class="container"><small>Copyright &copy; Mohaimen 2025</small></div>
         </div>
         <!-- Portfolio Modals-->
         <!-- Portfolio Modal 1-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" aria-labelledby="portfolioModal1" aria-hidden="true">
             <div class="modal-dialog modal-xl">
                 <div class="modal-content">
-                    <div class="modal-header border-0"><button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div class="modal-header border-0">
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
                     <div class="modal-body text-center pb-5">
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
-                                    <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
-                                    <!-- Icon Divider-->
+                                    <!-- Portfolio Modal - Title -->
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">UAV Survey Inspection</h2>
+                                    <!-- Icon Divider -->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cabin.png" alt="..." />
-                                    <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <!-- Portfolio Modal - Images Side by Side with Same Size -->
+                                     <!-- Portfolio Modal - Images Side by Side -->
+                            <div class="d-flex justify-content-center gap-3">
+                                <img class="img-fluid rounded" src="assets/img/portfolio/drone2.jpeg" alt="Drone Image" style="max-width: 45%; height: auto;" />
+                                <img class="img-fluid rounded" src="assets/img/portfolio/turkey1.jpeg" alt="Turkey Image" style="max-width: 45%; height: auto;" />
+                            </div>
+                                    <!-- Portfolio Modal - Text -->
+                                    <p class="mb-4">Inspecting the drone survey within the CoxDA jurisdiction for the Master Plan of Cox's Bazar District. This survey covers Detailed Area Planning (DAP) area. The images captured will be crucial for physical feature extraction, which will contribute to various planning aspects, including land use zoning, urban design, hydrology and drainage system development, and transportation and tourism planning.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -350,6 +340,8 @@
                 </div>
             </div>
         </div>
+        
+        
         <!-- Portfolio Modal 2-->
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" aria-labelledby="portfolioModal2" aria-hidden="true">
             <div class="modal-dialog modal-xl">
@@ -360,17 +352,20 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Tasty Cake</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">GIS-RS Training</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/cake.png" alt="..." />
+                                    <!-- Portfolio Modal - Images Side by Side -->
+                                    <div class="d-flex justify-content-center gap-4 mb-5">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/gistraining1.jpeg" alt="Training Image 1" style="max-width: 45%; height: auto;" />
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/gistraining2.jpeg" alt="Training Image 2" style="max-width: 45%; height: auto;" />
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">This training program was designed to enhance the capacity of CoxDA's urban planners, engineers, and GIS professionals. The sessions offered hands-on experience in GIS capabilities, the concept of Digital Twins, Building Information Modeling (BIM), remote sensing data analysis, and data visualization techniques, specifically tailored for urban and regional planning.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -399,10 +394,13 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/circus.png" alt="..." />
+                                    <!-- Portfolio Modal - Images side by side-->
+                                    <div class="d-flex justify-content-center gap-3 mb-5">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/cors1.jpeg" alt="..." style="max-width: 55%;"/>
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/cors2.jpeg" alt="..." style="max-width: 55%;"/>
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
-                                    <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                                    <p class="mb-4">CORS stands for Continuously Operating Reference Station, which is a network of GPS/ GNSS stations that provide real-time positioning information. 4 CORS stations covers CoxDA jurisdiction for centimeter level accuracy in RTK GNSS surveying, UAV surveying, mapping, and other applications that require high-accuracy positioning.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
                                         <i class="fas fa-xmark fa-fw"></i>
                                         Close Window
@@ -431,8 +429,11 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/game.png" alt="..." />
+                                    <!-- Portfolio Modal - Images side by side-->
+                                    <div class="d-flex justify-content-center gap-3 mb-5">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/rura2.jpeg" alt="..." style="max-width: 45%;" />
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/rura1.jpeg" alt="..." style="max-width: 45%;" />
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -464,7 +465,10 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/safe.png" alt="..." />
+                                    <div class="d-flex justify-content-center gap-3 mb-5">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/survey.jpeg" alt="..." style="max-width: 45%;" />
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/drone1.jpeg" alt="..." style="max-width: 45%;" />
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
@@ -495,8 +499,11 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
-                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/submarine.png" alt="..." />
+                                    <!-- Portfolio Modal - Images side by side-->
+                                    <div class="d-flex justify-content-center gap-3 mb-5">
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/syl.jpeg" alt="..." style="max-width: 45%;" />
+                                        <img class="img-fluid rounded" src="assets/img/portfolio/ra1.JPG" alt="..." style="max-width: 45%;" />
+                                    </div>
                                     <!-- Portfolio Modal - Text-->
                                     <p class="mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" data-bs-dismiss="modal">
