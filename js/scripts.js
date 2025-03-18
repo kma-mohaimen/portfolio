@@ -6,8 +6,66 @@
 //
 // Scripts
 // 
+// Function for programming languages
+function showDescription(skill, side) {
+    // Left column changes
+    if (side === 'left') {
+        // Hide all left column descriptions
+        let leftDescriptions = document.querySelectorAll('.skill-description-left');
+        leftDescriptions.forEach(function(desc) {
+            desc.style.display = 'none';
+        });
+        
+        // Update the left column's heading and description based on the clicked skill
+        let nameLeft = document.getElementById('skill-name-left');
+        let descriptionLeft = document.getElementById('skill-description-left');
 
-window.addEventListener('DOMContentLoaded', event => {
+        if (skill === 'python') {
+            nameLeft.textContent = 'Python';
+            descriptionLeft.textContent = 'Used for data analysis and visualization in hydrology projects. Developed scripts for geospatial data processing.';
+        } else if (skill === 'r') {
+            nameLeft.textContent = 'R';
+            descriptionLeft.textContent = 'R is a programming language and free software environment for statistical computing and graphics, widely used in data analysis, statistics, and machine learning.';
+        } else if (skill === 'javascript') {
+            nameLeft.textContent = 'JavaScript';
+            descriptionLeft.textContent = 'Built dynamic web applications using JavaScript and reactJS framework.Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.';
+        } else if (skill === 'postgresql') {
+            nameLeft.textContent = 'PostgreSQL';
+            descriptionLeft.textContent = 'PostgreSQL is a powerful, open-source relational database system that uses and extends the SQL language, known for its robustness and extensibility.';
+        }
+    }
+
+    // Right column changes
+    if (side === 'right') {
+        // Hide all right column descriptions
+        let rightDescriptions = document.querySelectorAll('.skill-description-right');
+        rightDescriptions.forEach(function(desc) {
+            desc.style.display = 'none';
+        });
+        
+        // Update the right column's heading and description based on the clicked skill
+        let nameRight = document.getElementById('skill-name-right');
+        let descriptionRight = document.getElementById('skill-description-right');
+
+        if (skill === 'qgis') {
+            nameRight.textContent = 'QGIS';
+            descriptionRight.textContent = 'Processed and visualized geospatial datasets for environmental monitoring. Created custom map layers for project presentations. Performed geostatistical analyses and exported professional-grade maps.';
+        } else if (skill === 'arcgis') {
+            nameRight.textContent = 'ArcGIS Pro';
+            descriptionRight.textContent = 'Utilized for geospatial data analysis, mapping, and visualization in environmental and hydrology projects.Created and managed detailed map layouts, including spatial data layers, symbology, and annotations.Performed geoprocessing tasks such as spatial joins, interpolation, buffer analysis, and terrain modeling.Delimited hydrological basins using digital elevation models (DEMs) and hydrology tools for watershed analysis.';
+        } else if (skill === 'earthengine') {
+            nameRight.textContent = 'Google Earth Engine';
+            descriptionRight.textContent = 'Developed scripts to analyze environmental changes, such as land cover classification and vegetation monitoring, using JavaScript and Python APIs.Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.';
+        } else if (skill === 'erdas') {
+            nameRight.textContent = 'Erdas Imagine';
+            descriptionRight.textContent = 'Erdas Imagine is a geospatial data analysis software for processing satellite and airborne sensor data, commonly used in remote sensing and GIS applications.';
+        }
+    }
+}
+
+
+
+
 
     // Navbar shrink function
     var navbarShrink = function () {
@@ -51,4 +109,3 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-});

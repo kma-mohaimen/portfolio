@@ -10,6 +10,154 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ /*!
+JS PYTHON Start
+ */
+ /* General Styling */
+ .skills-section {
+  padding: 40px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.skills-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
+.skills-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  flex-grow: 1;
+}
+
+.skills-column .subheading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.left-column, .right-column {
+  flex: 1;
+}
+
+.skill {
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.skill img {
+  width: 50px;
+  height: 50px;
+}
+
+.skill:hover {
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.skill-text-left, .skill-text-right {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 115px; /* Move the text pad 1.2 inches (115px) below the logos */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 320px; /* Exact height for the text pad to match combined logos height */
+}
+
+.skill-text-left, .skill-text-right {
+  width: 100%; /* Ensure it takes full available width */
+  max-width: 480px; /* Increased width to make the pads bigger horizontally */
+  background: #ffffff;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+
+/* Ensuring both columns are aligned */
+.skills-container {
+  display: flex;
+  justify-content: space-between; /* Distributes space evenly between the columns */
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.skills-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* Aligns content to the start of the column */
+  flex-grow: 1; /* Ensures equal distribution of available space */
+}
+.skill-description-box {
+  padding: 20px;
+  background-color: #f4f4f4; /* Light background color */
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;  /* Ensure the box takes up the full width of its container */
+  max-width: 800px; /* Increase max width for a wider box */
+  margin: 0 auto; /* Center align the box horizontally */
+  height: auto; /* Allow the box to grow with the content */
+}
+
+.skill-description-box h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.skill-description-box p {
+  margin-top: 10px;
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.6; /* Increase line height for better readability */
+}
+
+
+
+
+
+
+
+
+  /*!
+JS PYTHON finish
+ */
  .portfolio-item img {
   width: 100%;         /* Ensures images cover the full width of their container */
   height: 200px;       /* Fixed height for uniformity */
