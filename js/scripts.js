@@ -57,7 +57,7 @@ function showDescription(skill, side) {
             nameRight.textContent = 'Google Earth Engine';
             descriptionRight.textContent = 'Developed scripts to analyze environmental changes, such as land cover classification and vegetation monitoring, using JavaScript and Python APIs.Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.';
         } else if (skill === 'erdas') {
-            nameRight.textContent = 'Erdas Imagine';
+            nameRight.textContent = 'ENVI';
             descriptionRight.textContent = 'Utilized ENVI for RS add analysis, image classification, and geospatial data processing. Experienced in satellite image interpretation, land use/land cover mapping, and raster data analysis to support GIS-based decision-making.';
         }
     }
