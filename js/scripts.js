@@ -22,16 +22,16 @@ function showDescription(skill, side) {
 
         if (skill === 'python') {
             nameLeft.textContent = 'Python';
-            descriptionLeft.textContent = 'Used for data analysis and visualization in hydrology projects. Developed scripts for geospatial data processing.';
+            descriptionLeft.textContent = 'Used for data analysis and visualization in different projects. Developed scripts for geospatial data processing.';
         } else if (skill === 'r') {
             nameLeft.textContent = 'R';
-            descriptionLeft.textContent = 'R is a programming language and free software environment for statistical computing and graphics, widely used in data analysis, statistics, and machine learning.';
+            descriptionLeft.textContent = 'Processed for simple visualization of vector and raster data (the sf and stars packages, respectively). Performed common data transformation operations using functions from those packages. Created static maps (with ggplot2) and interactive maps (with mapview).';
         } else if (skill === 'javascript') {
             nameLeft.textContent = 'JavaScript';
             descriptionLeft.textContent = 'Built dynamic web applications using JavaScript and reactJS framework.Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.';
         } else if (skill === 'postgresql') {
             nameLeft.textContent = 'PostgreSQL';
-            descriptionLeft.textContent = 'PostgreSQL is a powerful, open-source relational database system that uses and extends the SQL language, known for its robustness and extensibility.';
+            descriptionLeft.textContent = 'Used for performing spatial operations, store data, geometries, and built spatial indexes.';
         }
     }
 
@@ -58,7 +58,7 @@ function showDescription(skill, side) {
             descriptionRight.textContent = 'Developed scripts to analyze environmental changes, such as land cover classification and vegetation monitoring, using JavaScript and Python APIs.Developed interactive widgets for data visualization and user engagement, enhancing the accessibility of spatial analysis results.';
         } else if (skill === 'erdas') {
             nameRight.textContent = 'Erdas Imagine';
-            descriptionRight.textContent = 'Erdas Imagine is a geospatial data analysis software for processing satellite and airborne sensor data, commonly used in remote sensing and GIS applications.';
+            descriptionRight.textContent = 'Utilized Erdas Imagine for remote sensing analysis, image classification, and geospatial data processing. Experienced in satellite image interpretation, land use/land cover mapping, and raster data analysis to support GIS-based decision-making.';
         }
     }
 }
